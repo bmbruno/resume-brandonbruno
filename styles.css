@@ -2,7 +2,7 @@
 
 body { background-color: #EEE; }
 
-section { margin: 0 0 1em 0; }
+section { margin: 0 0 1em 0; padding: 12em 0; }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Arial Black', sans-serif; margin-bottom: 0.5em; }
 h1 { font-size: 3em; text-shadow: 4px 4px 0 #000; color: #FFF; }
@@ -10,7 +10,10 @@ h2 { font-size: 2em; text-shadow: 2px 2px 0 #000; color: #FFF; }
 h3 { font-size: 1.25em; text-shadow: 1px 1px 0 #000; color: #FFF; }
 
 .content { margin: 0 auto; max-width: 1200px; }
+.glass { padding: 3em; backdrop-filter: blur(20px); }
+
+nav ul li { display: inline-block; width: 25%; }
 
 /* SECTIONS */
 
-section.overview { background-color: #F00; }
+section.overview { background: url('images/bg/blue.jpg'); background-size: cover; background-attachment: fixed; }
