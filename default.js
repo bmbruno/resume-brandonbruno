@@ -28,7 +28,7 @@
 	};
 
 	// Entry point
-	init();
+	Site.init();
 
 })();
 
