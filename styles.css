@@ -37,4 +37,4 @@ section.overview { background: url('images/bg/blue.jpg'); background-size: cover
 
 section.technology-skills h3 { text-shadow: none; color: rgb(32, 32, 32); font-size: 1.75em; }
 section.technology-skills .years-active { font-family: 'Arial Black', sans-serif; color: rgb(138, 138, 138); margin-bottom: 1em; }
-section.technology-skills .detail { font-size: 0.85em; }
+section.technology-skills .detail { font-size: 0.85em; line-height: 1.75em; }
