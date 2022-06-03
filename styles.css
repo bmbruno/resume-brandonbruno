@@ -4,10 +4,9 @@ body { background-color: #EEE; font-family: 'Asap', 'Arial', sans-serif; font-si
 img { max-width: 100%; }
 em { font-style: italic; }
 strong { font-weight: bold; }
-a { transition: all 0.15s ease-in-out; text-decoration: none;}
+a { transition: all 0.15s ease-in-out; text-decoration: none; font-weight: bold; }
 
 section { margin: 0 0 0 0; padding: 3em 0; }
-header { padding-bottom: 1em; }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Laleza', sans-serif; margin-bottom: 0.5em; }
 h1 { font-size: 3.5em; }
@@ -19,7 +18,7 @@ nav ul li { display: inline-block; }
 nav ul li a { display: block; background-color: #000; color: #FFF; padding: 1em; font-weight: bold; }
 nav ul li a:hover { background-color: #FFF; color: #000 }
 
-p { line-height: 1.5em; }
+p { line-height: 1.5em; margin-bottom: 1em; }
 
 .white-bg { background-color: #FFF; }
 
@@ -38,10 +37,10 @@ p { line-height: 1.5em; }
 .grid.four { grid-template-columns: 1fr 1fr 1fr 1fr; }
 .grid.five { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
 
-
-
 /* SECTIONS */
 
+header h1 { text-align: center; padding-top: 0.5em; margin: 0; }
+header .title-subtext { text-align: center; font-size: 1.25em; padding: 0 0 1.5em 0; }
 
 @media screen and (min-width: 40em)
 {
