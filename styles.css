@@ -12,13 +12,14 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Laleza', sans-serif; margin-bottom: 0.5em
 h1 { font-size: 3.5em; }
 h2 { font-size: 3em; }
 h3 { font-size: 2em; margin-bottom: 0; }
+h4 { font-size: 1.25em; margin-bottom: 0; }
 
 .content { margin: 0 auto; margin: 1em; }
 nav ul li { display: inline-block; }
 nav ul li a { display: block; background-color: #000; color: #FFF; padding: 1em; font-weight: bold; }
 nav ul li a:hover { background-color: #FFF; color: #000 }
 
-p { line-height: 1.5em; margin-bottom: 1em; }
+p { line-height: 1.5em; margin-bottom: 1em; font-size: 1.25em; }
 
 ul li { margin-bottom: 2em; }
 
@@ -46,7 +47,12 @@ ul li { margin-bottom: 2em; }
 header h1 { text-align: center; padding-top: 0.5em; margin: 0; }
 header .title-subtext { text-align: center; font-size: 1.25em; padding: 0 0 1.5em 0; }
 
+.speaking h4 { font-family: 'Asap', 'Arial', sans-serif; font-size: 1em; font-weight: bold; font-style: italic; }
+.speaking .sub { margin-bottom: 0.5em; }
+.speaking ul { margin-left: 2em; }
+.speaking .sub-location { margin: 0; font-size: 1em; }
 
+.employment .positions { font-style: italic; font-weight: bold; margin-bottom: 1em; font-size: 1.25em;  }
 
 /* Larger screen sizes */
 
