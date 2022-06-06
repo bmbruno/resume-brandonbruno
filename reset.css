@@ -64,6 +64,3 @@ table {
 
 * { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
 html { overflow-y: scroll; }
-img { max-width: 100%; }
-a, a:visited { text-decoration: none; color: #600; -webkit-transition: all 0.15s ease-in-out; }
-strong { font-weight: bold; }
