@@ -49,7 +49,7 @@ ul.detail li { margin: 0 0 0.5em 2em; list-style-type: disc; }
 /* SECTIONS */
 
 header h1 { text-align: center; padding-top: 0.5em; margin: 0; }
-header .title-subtext { text-align: center; font-size: 1.25em; padding: 0 0 1.5em 0; }
+header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 1.5em 0; }
 
 .technology-skills ul li { margin-bottom: 2em; }
 .technology-skills ul.detail li { margin-bottom: 0.5em; }
@@ -59,7 +59,7 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0 0 1.5e
 .education ul li { margin-bottom: 2em; }
 .education .school { margin-bottom: 2em; }
 
-.speaking h4 { font-family: 'Asap', 'Arial', sans-serif; font-size: 1.1em; font-weight: bold; font-style: italic; }
+.speaking h4 { font-family: 'Asap', 'Arial', sans-serif; font-size: 1.1em; font-weight: bold; font-style: italic; line-height: 1.5em; }
 .speaking .sub { margin-bottom: 0.5em; }
 .speaking ul { margin-left: 2em; }
 .speaking ul li { margin-bottom: 2em; }
