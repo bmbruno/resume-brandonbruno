@@ -11,7 +11,7 @@ section { margin: 0 0 0 0; padding: 3em 0; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Laleza', sans-serif; margin-bottom: 0.5em; }
 h1 { font-size: 3.5em; }
 h2 { font-size: 3em; }
-h3 { font-size: 1.25em; }
+h3 { font-size: 2em; margin-bottom: 0; }
 
 .content { margin: 0 auto; margin: 1em; }
 nav ul li { display: inline-block; }
@@ -20,7 +20,11 @@ nav ul li a:hover { background-color: #FFF; color: #000 }
 
 p { line-height: 1.5em; margin-bottom: 1em; }
 
+ul li { margin-bottom: 2em; }
+
 .white-bg { background-color: #FFF; }
+
+.sub { font-size: 1.5em; font-family: 'Laleza', sans-serif; color: rgb(124, 124, 124); }
 
 /* GRIDS */
 
@@ -41,6 +45,10 @@ p { line-height: 1.5em; margin-bottom: 1em; }
 
 header h1 { text-align: center; padding-top: 0.5em; margin: 0; }
 header .title-subtext { text-align: center; font-size: 1.25em; padding: 0 0 1.5em 0; }
+
+
+
+/* Larger screen sizes */
 
 @media screen and (min-width: 40em)
 {
