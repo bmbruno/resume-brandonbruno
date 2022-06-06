@@ -15,7 +15,6 @@ h3 { font-size: 1.75em; margin-bottom: 0; }
 h4 { font-size: 1.25em; margin-bottom: 0; }
 
 .content { margin: 0 auto; margin: 1em; }
-nav ul li { display: inline-block; }
 nav ul li a { display: block; background-color: #000; color: #FFF; padding: 1em; font-weight: bold; }
 nav ul li a:hover { background-color: #FFF; color: #000 }
 
@@ -25,7 +24,7 @@ ul li { margin-bottom: 0.5; }
 
 .white-bg { background-color: #FFF; }
 
-.sub { font-size: 1.5em; font-family: 'Laleza', sans-serif; color: rgb(124, 124, 124); }
+.sub { font-size: 1.5em; font-family: 'Laleza', sans-serif; color: #646464; }
 .title { font-style: italic; font-weight: bold; margin-bottom: 1em; font-size: 1.1em;  }
 
 ul.detail { margin: 1em 0 0 0; }
@@ -35,16 +34,14 @@ ul.detail li { margin: 0 0 0.5em 2em; list-style-type: disc; }
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
     display: grid;
     grid-template-rows: 1fr; 
-    gap: 0px;
 }
 .grid.one { grid-template-columns: 1fr; }
-.grid.two { grid-template-columns: 1fr 1fr; }
-.grid.three { grid-template-columns: 1fr 1fr 1fr; }
-.grid.four { grid-template-columns: 1fr 1fr 1fr 1fr; }
-.grid.five { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+.grid.two { grid-template-columns: 1fr; }
+.grid.three { grid-template-columns: 1fr; }
+.grid.four { grid-template-columns: 1fr; }
+.grid.five { grid-template-columns: 1fr; }
 
 /* SECTIONS */
 
@@ -70,9 +67,26 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
 @media screen and (min-width: 40em)
 {
-    .content { margin: 0 auto; max-width: 1200px; }
+    .content { margin: 1em;  }
 
-    h1 { font-size: 3em; }
-    h2 { font-size: 4em; }
-    h3 { font-size: 1.25em; }
+    h1 { font-size: 4em; }
+    h2 { font-size: 3.5em; }
+    h3 { font-size: 1.75em; margin-bottom: 0; }
+    h4 { font-size: 1.25em; margin-bottom: 0; }
+
+    .grid.four { grid-template-columns: 1fr 1fr; }
+
+    .technology-skills .grid { gap: 1em; }
+    .technology-skills .grid > li { background-color: #FFF; margin: 0; padding: 1em; border-radius: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
+
+    .employment ul li { margin-bottom: 3em; }
+    .employment h3 { font-size: 2em; }
+}
+
+@media screen and (min-width: 60em)
+{
+    .content { margin: 0 auto; max-width: 1100px; }
+    .grid.four { grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+    header .title-subtext { font-size: 1.75em; }
 }
