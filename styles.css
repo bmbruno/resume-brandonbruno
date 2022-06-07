@@ -53,8 +53,8 @@ ul.detail li { margin: 0 0 0.5em 2em; list-style-type: disc; }
 header h1 { text-align: center; padding-top: 0.5em; margin: 0; }
 header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 1.5em 0; }
 
-.technology-skills ul li { margin-bottom: 2em; }
-.technology-skills ul.detail li { margin-bottom: 0.5em; }
+.technology ul li { margin-bottom: 2em; }
+.technology ul.detail li { margin-bottom: 0.5em; }
 
 .additional-skills ul li { margin: 0 0 1em 2em; list-style-type: disc; font-size: 1.1em; line-height: 1.5em; }
 
@@ -77,8 +77,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 {
     nav ul { grid-template-columns: 1fr 1fr 1fr; }
 
-    .technology-skills ul li:hover { transition: transform .3s; transform: scale(1.1); }
-    .technology-skills ul.detail li { transition: none; transform: none; }
+    .technology ul li:hover { transition: transform .3s; transform: scale(1.1); }
+    .technology ul.detail li { transition: none; transform: none; }
 
     .travel img { border-radius: 16px; box-shadow: 0 12px 32px rgb(153, 153, 153); }
 }
@@ -96,8 +96,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
     .grid.four { grid-template-columns: 1fr 1fr; }
 
-    .technology-skills .grid { gap: 1em; }
-    .technology-skills .grid > li { background-color: #FFF; margin: 0; padding: 1em; border-radius: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
+    .technology .grid { gap: 1em; }
+    .technology .grid > li { background-color: #FFF; margin: 0; padding: 1em; border-radius: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
 
     .employment ul li { margin-bottom: 3em; }
     .employment h3 { font-size: 2em; }
