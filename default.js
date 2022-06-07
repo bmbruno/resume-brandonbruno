@@ -5,6 +5,7 @@
 		init: function () {
 
 			Site.transformYearsActive();
+			Site.initScrollTo();
 
 		},
 
@@ -23,6 +24,37 @@
 				
 				}
 			}
+		},
+
+		initScrollTo: function () {
+
+			let allLinks = document.getElementsByClassName("nav-link");
+
+			for (let i = 0; i < allLinks.length; i++) {
+
+				let navLink = allLinks[i];
+
+				navLink.addEventListener("click", (event) => {
+
+					event.preventDefault();
+					
+					let dataTarget = event.target.attributes["data-target"];
+					if (dataTarget == null || typeof dataTarget === "undefined" || dataTarget === "") {
+						return;
+					}
+
+					let target = document.getElementById(dataTarget.value);
+
+					window.scrollTo({
+						top: target.offsetTop - 80,
+						left: 0,
+						behavior: "smooth"
+					});
+
+				});
+
+			}
+
 		}
 
 	};

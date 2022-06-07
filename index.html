@@ -24,12 +24,12 @@
 
 			<nav>
 				<ul class="grid">
-					<li><a href="#overview"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Overview</a></li>
-					<li><a href="#technology-skills"><i class="fa fa-tasks" aria-hidden="true"></i>&nbsp;&nbsp;Tech</a></li>
-					<li><a href="#skills"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Skills</a></li>
-					<li><a href="#speaking"><i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp;&nbsp;Speaking</a></li>
-					<li><a href="#employment"><i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;&nbsp;Employment</a></li>
-					<li><a href="#travel"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;&nbsp;Travel</a></li>
+					<li><a href="#overview" data-target="Overview" class="nav-link"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Overview</a></li>
+					<li><a href="#technology-skills" data-target="TechnologySkills" class="nav-link"><i class="fa fa-tasks" aria-hidden="true"></i>&nbsp;&nbsp;Tech</a></li>
+					<li><a href="#skills" data-target="Skills" class="nav-link"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Skills</a></li>
+					<li><a href="#speaking" data-target="Speaking" class="nav-link"><i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp;&nbsp;Speaking</a></li>
+					<li><a href="#employment" data-target="Employment" class="nav-link"><i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;&nbsp;Employment</a></li>
+					<li><a href="#travel" data-target="Travel" class="nav-link"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;&nbsp;Travel</a></li>
 				</ul>
 			</nav>
 
@@ -37,14 +37,15 @@
 
 		<section class="overview white-bg">
 
-			<a name="overview"></a>
+			<a name="overview" class="scroll-target"></a>
 
 			<div class="content">
 
+				<a name="overview" id="Overview"></a>
 				<h2>Overview</h2>
 				<p>I solve business problems with technology by building performant and agile solutions for the web.</p>
 				<p>As a software engineer &amp; architect, I believe that <em>simplicity is the root of quality</em>.</p>
-				<p>My personal website can be found at <a href="https://www.brandonbruno.com" target="_blank">BrandonBruno.com</a>.</p>
+				<p>My personal website can be found at <a href="https://www.brandonbruno.com" target="_blank">BrandonBruno.com</a></p>
 				<p>My open-source software is <a href="https://github.com/bmbruno" target="_blank">available on GitHub</a>.</p>
 
 			</div>
@@ -55,7 +56,7 @@
 
 			<div class="content">
 
-				<a name="technology-skills"></a>
+				<a name="technology-skills" id="TechnologySkills"></a>
 				<h2>Technologies &amp; Skills</h2>
 				<ul class="grid four">
 					<li>
@@ -95,7 +96,13 @@
 					<li><h3>JavaScript</h3> <div class="years-active sub" data-year="1999">since 1999</div></li>
 					<li><h3>HTML, CSS</h3> <div class="years-active sub" data-year="1999">since 1999</div></li>
 					<li><h3>Git version control</h3></li>
-					<li><h3>Windows 2000, XP, 7, 8.1, 10, 11, Server</h3></li>
+					<li>
+						<h3>Windows OSes</h3>
+						<ul class="detail">
+							<li>2000, XP, 7, 8.1, 10, 11</li>
+							<li>Windows Server</li>
+						</ul>
+					</li>
 					<li>
 						<h3>Unix-based OSes</h3>
 						<ul class="detail">
@@ -113,7 +120,7 @@
 
 			<div class="content">
 
-				<a name="skills"></a>
+				<a name="skills" id="Skills"></a>
 				<h2>Additional Skills</h2>
 				<ul>
 					<li>Public speaking / technical presentations (see Speaking Engagements)</li>
@@ -131,7 +138,7 @@
 
 			<div class="content">
 
-				<a name="education"></a>
+				<a name="education" id="Education"></a>
 				<h2>Education, etc.</h2>
 
 				<div class="school">
@@ -162,7 +169,7 @@
 
 			<div class="content">
 
-				<a name="speaking"></a>
+				<a name="speaking" id="Speaking"></a>
 				<h2>Speaking Engagements</h2>
 
 				<div>
@@ -170,7 +177,7 @@
 					<div class="location sub">Columbus, OH</div>	
 					<ul>
 						<li>
-							<h4>Be Better at Email</h4>
+							<h4>Be Better at Email By Perfecting Your Outbox</h4>
 							<p class="sub-location">2018</p>
 						</li>
 					</ul>
@@ -252,7 +259,7 @@
 
 			<div class="content">
 			
-				<a name="employment"></a>
+				<a name="employment" id="Employment"></a>
 				<h2>Employment</h2>
 
 				<ul>
@@ -295,7 +302,7 @@
 
 			<div class="content">
 
-				<a name="travel"></a>
+				<a name="travel" id="Travel"></a>
 				<h2>Travel</h2>
 				<p>I am available for immediate travel throughout the United States (from <a href="https://www.atl.com/" target="_blank">Hartsfield-Jackson Atlanta International Airport</a>).</p>
 				<p>Interntional travel options are also available upon request and written agreement.</p>
