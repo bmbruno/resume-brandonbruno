@@ -81,6 +81,7 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
     .technology ul.detail li { transition: none; transform: none; }
 
     .travel img { border-radius: 16px; box-shadow: 0 12px 32px rgb(153, 153, 153); }
+
 }
 
 @media screen and (min-width: 40em)
@@ -98,6 +99,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
     .technology .grid { gap: 1em; }
     .technology .grid > li { background-color: #FFF; margin: 0; padding: 1em; border-radius: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
+
+    .additional-skills ul { columns: 2; }
 
     .employment ul li { margin-bottom: 3em; }
     .employment h3 { font-size: 2em; }
