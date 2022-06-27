@@ -1,2 +1,2 @@
 # resume-brandonbruno
-My digital resume, updated regularly.
+My digital resume. Updated regularly.
