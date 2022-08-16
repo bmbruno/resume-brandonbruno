@@ -1,2 +1,2 @@
-# resume-brandonbruno
-My digital resume. Updated regularly.
+# Brandon Bruno: Résumé
+My digital résumé. Updated regularly.
