@@ -73,6 +73,9 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 .travel .image-container { text-align: center; margin: 5em auto; max-width: 800px; }
 .travel img { border-radius: 8px; }
 
+.github-link { text-align: center; font-size: 0.85em; }
+.github-link a { text-decoration: none; }
+
 /* Larger screen sizes */
 
 @media screen and (min-width: 30em)
