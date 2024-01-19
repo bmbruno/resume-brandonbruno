@@ -28,7 +28,7 @@ p:last-of-type { margin-bottom: 0; }
 
 .white-bg { background-color: #FFF; }
 
-.sub { font-size: 1.5em; font-family: 'Laleza', sans-serif; color: #646464; }
+.sub { font-size: 1.35em; font-family: 'Laleza', sans-serif; color: #646464; }
 .title { font-style: italic; font-weight: bold; margin-bottom: 1em; font-size: 1.1em;  }
 
 ul.detail { margin: 1em 0 0 0; }
@@ -87,7 +87,6 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
     .technology ul.detail li { transition: none; transform: none; }
 
     .travel img { border-radius: 16px; box-shadow: 0 12px 32px rgb(153, 153, 153); }
-
 }
 
 @media screen and (min-width: 40em)
@@ -110,7 +109,6 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
     .employment ul li { margin-bottom: 3em; }
     .employment h3 { font-size: 2em; }
-
 }
 
 @media screen and (min-width: 60em)
@@ -119,7 +117,6 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
     nav ul { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; }
     
-
     .content { margin: 0 auto; padding: 1em; max-width: 1100px; }
     .grid.four { grid-template-columns: 1fr 1fr 1fr 1fr; }
 
