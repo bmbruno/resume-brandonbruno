@@ -55,7 +55,7 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 .technology ul li { margin-bottom: 2em; }
 .technology ul.detail li { margin-bottom: 0.5em; }
 
-.additional-skills ul li { margin: 0 0 1em 2em; list-style-type: disc; font-size: 1.1em; line-height: 1.5em; }
+.additional-expertise ul li { margin: 0 0 1em 2em; list-style-type: disc; font-size: 1.1em; line-height: 1.5em; }
 
 .education ul li { margin-bottom: 2em; }
 .education .school { margin-bottom: 2em; }
@@ -104,8 +104,9 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
     .technology .grid { gap: 1em; }
     .technology .grid > li { background-color: #FFF; margin: 0; padding: 1em; border-radius: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
+    .technology .grid > li:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.50); }
 
-    .additional-skills ul { columns: 2; }
+    .additional-expertise ul { columns: 2; }
 
     .employment ul li { margin-bottom: 3em; }
     .employment h3 { font-size: 2em; }
