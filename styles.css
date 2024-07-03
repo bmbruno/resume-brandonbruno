@@ -67,9 +67,9 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 .speaking ul.detail li { margin-bottom: 0.5em; }
 .speaking .sub-location { margin: 0; font-size: 1em; }
 
-.employment ul li { margin-bottom: 2em; }
-.employment ul li:last-of-type { margin-bottom: 0; }
-.employment h3 { letter-spacing: 1px; }
+.experience ul li { margin-bottom: 2em; }
+.experience ul li:last-of-type { margin-bottom: 0; }
+.experience h3 { letter-spacing: 1px; }
 
 .travel .image-container { text-align: center; margin: 5em auto; max-width: 800px; }
 .travel img { border-radius: 8px; }
@@ -108,8 +108,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
     .additional-expertise ul { columns: 2; }
 
-    .employment ul li { margin-bottom: 3em; }
-    .employment h3 { font-size: 2em; }
+    .experience ul li { margin-bottom: 3em; }
+    .experience h3 { font-size: 2em; }
 }
 
 @media screen and (min-width: 60em)
