@@ -1,6 +1,6 @@
 /* BASE */
 
-body { background-color: #EEE; font-family: 'Asap', 'Arial', sans-serif; font-size: 16px; }
+body { background-color: #d6d6d6; font-family: 'Asap', 'Arial', sans-serif; font-size: 16px; min-width: 350px; }
 img { max-width: 100%; }
 em { font-style: italic; }
 strong { font-weight: bold; }
@@ -53,7 +53,8 @@ header h1 { text-align: center; padding-top: 0.5em; margin: 0; }
 header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 1.5em 0; }
 
 .technology ul li { margin-bottom: 2em; }
-.technology ul.detail li { margin-bottom: 0.5em; }
+.technology ul.detail li { margin-bottom: 0.5em; text-align: left; }
+.technology ul li img { display: none; }
 
 .additional-expertise ul li { margin: 0 0 1em 2em; list-style-type: disc; font-size: 1.1em; line-height: 1.5em; }
 
@@ -106,6 +107,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
     .technology .grid { gap: 1em; }
     .technology .grid > li { background-color: #FFF; margin: 0; padding: 1em; border-radius: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
     .technology .grid > li:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.50); }
+    .technology ul li { text-align: center; }
+    .technology ul li img { max-width: 64px; margin-bottom: 8px; display: inline-block; }
 
     .additional-expertise ul { columns: 2; }
 
