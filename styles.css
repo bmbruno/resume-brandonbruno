@@ -85,7 +85,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 {
     nav ul { grid-template-columns: 1fr 1fr 1fr; }
 
-    .technology ul li:hover { transition: transform .3s; transform: scale(1.1); }
+    .technology ul li:hover { transition: transform .3s; transform: scale(1.1); background: radial-gradient(circle,rgba(255, 255, 255, 1) 25%, rgba(165, 189, 209, 1) 100%); }
+    .technology ul.detail li:hover { background: none; }
     .technology ul.detail li { transition: none; transform: none; }
 
     .travel img { border-radius: 16px; box-shadow: 0 12px 32px rgb(153, 153, 153); }
