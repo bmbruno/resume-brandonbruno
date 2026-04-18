@@ -52,6 +52,9 @@ ul.detail li { margin: 0 0 0.5em 2em; list-style-type: disc; }
 header h1 { text-align: center; padding-top: 0.5em; margin: 0; }
 header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 1.5em 0; }
 
+.overview ul { margin-bottom: 1.5em; }
+.overview ul li { margin-left: 2rem; list-style-type: disc; }
+
 .technology ul li { margin-bottom: 2em; }
 .technology ul.detail li { margin-bottom: 0.5em; text-align: left; }
 .technology ul li img { display: none; }
@@ -85,6 +88,15 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 {
     nav ul { grid-template-columns: 1fr 1fr 1fr; }
 
+    .grid.four { grid-template-columns: 1fr 1fr; }
+
+    .technology .grid { gap: 1em; }
+    .technology .grid > li { background-color: #FFF; margin: 0; padding: 1em; border-radius: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
+    .technology .grid > li:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.50); }
+    .technology ul li { text-align: center; }
+    .technology ul li img { max-width: 64px; margin-bottom: 8px; display: inline-block; }
+
+    .technology ul { columns: inherit; }
     .technology ul li:hover { transition: transform .3s; transform: scale(1.1); background: radial-gradient(circle,rgba(255, 255, 255, 1) 25%, rgba(165, 189, 209, 1) 100%); }
     .technology ul.detail li:hover { background: none; }
     .technology ul.detail li { transition: none; transform: none; }
@@ -103,13 +115,7 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
     h3 { font-size: 1.75em; margin-bottom: 0; }
     h4 { font-size: 1.25em; margin-bottom: 0; }
 
-    .grid.four { grid-template-columns: 1fr 1fr; }
-
-    .technology .grid { gap: 1em; }
-    .technology .grid > li { background-color: #FFF; margin: 0; padding: 1em; border-radius: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); }
-    .technology .grid > li:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.50); }
-    .technology ul li { text-align: center; }
-    .technology ul li img { max-width: 64px; margin-bottom: 8px; display: inline-block; }
+    .grid.four { grid-template-columns: 1fr 1fr 1fr; }
 
     .additional-expertise ul { columns: 2; }
 
@@ -129,6 +135,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
     .grid.four { grid-template-columns: 1fr 1fr 1fr 1fr; }
 
     header .title-subtext { font-size: 1.75em; }
+
+    .additional-expertise ul { columns: 3; }
 }
 
 @media screen and (min-width: 80em)
