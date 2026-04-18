@@ -119,6 +119,7 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
     h3 { font-size: 1.75em; margin-bottom: 0; }
     h4 { font-size: 1.25em; margin-bottom: 0; }
 
+    .grid.two { grid-template-columns: 1fr 1fr; gap: 2em; }
     .grid.four { grid-template-columns: 1fr 1fr 1fr; }
 
     .additional-expertise ul { columns: 2; }
