@@ -129,6 +129,7 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
     .grid.four { grid-template-columns: 1fr 1fr 1fr; }
 
     .overview .links a { display: inline; border-bottom: 2px solid var(--link-color); margin-bottom: 0; }
+    .overview .links a:hover { border-bottom: solid 2px var(--link-color-hover); }
 
     .additional-expertise ul { columns: 2; }
 
