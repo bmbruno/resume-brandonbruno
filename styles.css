@@ -89,6 +89,10 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 .travel .image-container { text-align: center; margin: 5em auto; max-width: 800px; }
 .travel img { border-radius: 8px; }
 
+.consulting-engagements { padding-top: 1em; }
+.consulting-engagements .fa { font-size: 0.8em; }
+.consulting-engagements ul li { margin-bottom: 1.5em; padding: 2em; background-color: #EEE; border-radius: 12px; box-shadow: 0 4px 8px #a5a5a5; }
+
 .github-link { text-align: center; font-size: 0.85em; }
 .github-link a { text-decoration: none; }
 
@@ -137,6 +141,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
     .experience ul li { margin-bottom: 3em; }
     .experience h3 { font-size: 2em; }
+
+    .consulting-engagements ul li { margin-bottom: 0; }
 }
 
 @media screen and (min-width: 60em)
