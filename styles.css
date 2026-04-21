@@ -1,12 +1,17 @@
+:root { 
+    --link-color: #0072be;
+    --link-color-hover: #00b7ff;
+}
+
 /* BASE */
 
 body { background-color: #d6d6d6; font-family: 'Asap', 'Arial', sans-serif; font-size: 16px; min-width: 350px; }
 img { max-width: 100%; }
 em { font-style: italic; }
 strong { font-weight: bold; }
-a { transition: all 0.15s ease-in-out; text-decoration: none; font-weight: bold; color: #0072be; border-bottom: solid 2px #0072be; }
-a:visited { color: #0072be; }
-a:hover { color: #00b7ff; border-bottom: solid 2px #00b7ff; }
+a { transition: all 0.15s ease-in-out; text-decoration: none; font-weight: bold; color: var(--link-color); border-bottom: solid 2px #0072be; }
+a:visited { color: var(--link-color); }
+a:hover { color: var(--link-color-hover); border-bottom: solid 2px var(--link-color-hover); }
 
 section { margin: 0 0 0 0; padding: 3em 0; }
 
@@ -54,6 +59,7 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
 .overview ul { margin-bottom: 1.5em; }
 .overview ul li { margin-left: 2rem; list-style-type: disc; }
+.overview .links a { display: block; border-bottom: none; margin-bottom: 0.5em; }
 
 .technology ul li { margin-bottom: 2em; }
 .technology ul.detail li { margin-bottom: 0.5em; text-align: left; }
@@ -121,6 +127,8 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
 
     .grid.two { grid-template-columns: 1fr 1fr; gap: 2em; }
     .grid.four { grid-template-columns: 1fr 1fr 1fr; }
+
+    .overview .links a { display: inline; border-bottom: 2px solid var(--link-color); margin-bottom: 0; }
 
     .additional-expertise ul { columns: 2; }
 
