@@ -155,8 +155,6 @@ header .title-subtext { text-align: center; font-size: 1.25em; padding: 0.8em 0 
     .grid.four { grid-template-columns: 1fr 1fr 1fr 1fr; }
 
     header .title-subtext { font-size: 1.75em; }
-
-    .additional-expertise ul { columns: 3; }
 }
 
 @media screen and (min-width: 80em)
